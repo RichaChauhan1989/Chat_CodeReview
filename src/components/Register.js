@@ -81,7 +81,7 @@ const buttonStyle = {
   return (
     <div style={loginContainerStyle} >
       <p>
-      <h2>Registeration Form</h2>
+      <h2>Register Form</h2>
       </p>
       <form onSubmit={handleSubmit} style={formStyle}>
         <div style={{display: 'flex', alignItems: 'center', marginBottom: ''}}>
@@ -107,6 +107,7 @@ const buttonStyle = {
           </p>
         </div>
         <div style={{display: 'flex', alignItems: 'center', marginBottom: ''}}>
+          <p>hello World</p>
           <p><label htmlFor="password" style={labelStyle}>Password</label>
             <input
                 type="password"
